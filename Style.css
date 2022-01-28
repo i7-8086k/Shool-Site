@@ -2,21 +2,43 @@ html{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
-background-color: rgba(0, 255, 42, 0.452);
+background-color: rgb(255, 255, 255);
 }
 
 a{
-color: rgb(255, 0, 0);
+color: rgb(0, 0, 0);
 text-decoration: none;
 }
 atthe-a-link:hover{
     color: rgb(32, 138, 180);
 }
 
-.logo [
+/* unvisited link */
+a:link {
+    color: rgb(17, 0, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(38, 0, 128);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 75);
+  }
+
+  <a href="https://jgy.se/" id="logo.png">JGY</a>
+
+.logo {
 width: 64;
 height: 64; 
-]
+}
 
 body{
 
